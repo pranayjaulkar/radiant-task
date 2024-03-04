@@ -1,0 +1,47 @@
+.nav-section
+    width: 1024px
+    margin: 0 auto
+    margin-bottom: 1rem
+    display: flex
+    flex-direction: column
+    gap: 1rem
+.status-bar
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: .4rem
+    border-top: 1px solid lightgray
+    border-bottom: 1px solid lightgray
+    > div
+        display: flex
+        align-items: center
+        gap: 3rem
+        > div
+            display: flex
+            align-items: center
+            gap: .5rem
+    >.filter-parent
+        position: relative
+        > .options
+            position: absolute
+            min-width: 150px
+            display: flex
+            flex-direction: column
+            z-index: 9999
+            top: 0
+            background-color: white
+            padding: 4px 8px
+            color: #212731
+        .filter
+            display: flex
+            align-items: center
+            gap: .5rem
+            color: gray
+
+.tags
+    display: flex
+    gap: 4rem
+.route
+    display: flex
+    gap: 1rem
+    color: gray

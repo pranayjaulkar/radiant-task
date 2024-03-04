@@ -1,0 +1,59 @@
+$foreground-blue: #1B88F4
+$foreground-dark-blue: #074786
+$background-light-blue: #F3F9FF
+$background-light-gray: #2C384A
+
+.related-builder-card
+    display: flex
+    flex-direction: column
+    padding: 1rem
+    border-radius: 12px
+    background-color: white
+    >.image
+        display: flex
+        justify-content: center
+        padding: 2.5rem
+        img
+            height: 100%
+            object-fit: cover
+    > .details
+        display: flex
+        flex-direction: column
+        gap: .5rem
+
+        >.tags
+            display: flex
+            gap: .5rem
+            >.tag
+                color: $foreground-dark-blue
+                background-color: $background-light-blue
+                padding: .2rem .5rem
+                border-radius: 8px
+        >.name
+            margin: 0 auto
+            font-size: 1rem
+            font-weight: 700
+            color: $background-light-gray
+
+        >.description
+            font-size: 1rem
+            font-weight: 500
+            color: gray
+        .price
+            color: $background-light-gray
+            font-size: 20px
+            margin-right: .5rem
+        .original-price
+            color: gray
+            margin-right: .5rem
+        .discount
+            color: red
+        >.view-button
+            display: flex
+            align-items: center
+            border-radius: 12px
+            background-color: $foreground-blue
+            width: 100%
+            height: 48px
+            color: white
+            padding: 1rem
